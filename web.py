@@ -21,7 +21,6 @@ for index, todo in enumerate(todos):
         functions_new.write_todos_doc(todos)
         del st.session_state[todo]
         st.rerun()
-
     # print(type(checkbox))
 
 st.text_input(label='Enter a shit here:', placeholder='Enter a shit here:',
